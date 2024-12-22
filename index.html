@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header" >
+      <img id="header-img" src="" />
+        <div class="container">
+            <h1>Product Name</h1>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a  class="nav-link" href="#features">Features</a></li>
+                    <li><a  class="nav-link" href="#pricing">Pricing</a></li>
+                    <li><a  class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h2>Welcome to Our Product</h2>
+                <p>Discover the amazing benefits of our product. 
+
+It's designed to meet your needs and exceed your expectations.</p>
+                <a href="#features" class="btn">Learn More</a>
+            </div>
+        </section>
+        <section id="features">
+            <div class="container">
+                <h2>Features</h2>
+                <ul>
+                    <li><h3>Premium Materials</h3>
+Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</li>
+                    <li><h3>Fast Shipping</h3>
+We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</li>
+                    <li><h3>Quality Assurance</h3>
+For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</li>
+                </ul>
+            </div>
+        </section>
+        <section id="pricing">
+            <div class="container">
+                <h2>Pricing</h2>
+                <ul>
+                    <li>Basic Plan: $19.99/month</li>
+                    <li>Standard Plan: $29.99/month</li>
+                    <li>Premium Plan: $49.99/month</li>
+                </ul>
+            </div>
+            <iframe id="video" width="300" height="315" src="https://www.youtube.com/embed/1rUVvxF-MR0?si=xrD5Y2pGrDnTVKRm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+        </section>
+        <section id="contact">
+            <div class="container">
+
+                <h2>Contact Us</h2>
+                <p>Have questions? We'd love to hear from you!</p>
+
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <input id="submit" type="submit" />
+                </form>
+            
+
